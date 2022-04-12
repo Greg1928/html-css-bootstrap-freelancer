@@ -41,6 +41,10 @@
 .white{
     color: white;
 }
+#font-color-footer{
+    color: #1abc9c;
+    cursor: pointer;
+}
 
 /* HEADER */
 
@@ -176,4 +180,30 @@ button i{
 
 .footer-bottom{
     text-align: center;
+}
+footer h4{
+    margin-top: 50px;
+}
+footer p{
+    font-size: 20px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: inherit;
+    border: solid white 1px;
+    text-align: center;
+    cursor: pointer;
+}
+.circle i{
+    line-height: 50px;
+}
+.circles{
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+}
+.bottom-footer-txt{
+    padding: 40px 0 50px 0;
 }

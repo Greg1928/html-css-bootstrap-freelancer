@@ -1,6 +1,7 @@
-.menu-btn{
-    text-align: right;
-}
+
+
+/* COMMONS */
+
 .bck-color1{
     background-color: #2C3E50;
 }
@@ -31,6 +32,71 @@
 .bck-color10{
     background-color: #2C3E50;
 }
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* HEADER */
+
+header{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+    gap: 0 20px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logo h2{
+    font-size: 22px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+/* HERO */
+
+.hero img{
+    height: 300px;
+    padding: 20px 0;
+}
+.hero{
+    color: white;
+    font-weight: bold;
+}
+.line{
+    height: 3px;
+    background-color: white;
+    width: 120px;
+}
+.decoration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.hero-txt{
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
 .footer-bottom{
     text-align: center;
 }

@@ -60,6 +60,17 @@ header{
     margin-bottom: 0;
     cursor: pointer;
 }
+.nav-mobile{
+   text-align: right;
+}
+.nav-mobile i{
+    padding: 8px 12px;
+    border: solid white 1px;
+    color: gray;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /* HERO */
 

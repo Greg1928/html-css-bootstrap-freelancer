@@ -32,6 +32,9 @@
 .bck-color10{
     background-color: #2C3E50;
 }
+#bck-color11{
+    background-color: #2c3e50;
+}
 .uppercase{
     text-transform: uppercase;
 }
@@ -98,8 +101,21 @@ header{
     padding-bottom: 40px;
 }
 
-
-
+.img{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.img img{
+    height: 250px;
+}
+.margin-port{
+    margin: 10px 0;
+}
+.portfolio-txt{
+    margin-top: 40px;
+    font-size: 30px;
+}
 
 
 

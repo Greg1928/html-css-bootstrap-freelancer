@@ -159,14 +159,20 @@ button i{
 
 /* CONTACT SECTION */
 
-.contact h2{
-
+.contact span, .contact label{
+    color: #2c3e50;
+}
+.contact button{
+    background-color: #1ABC9C;
+    color: white;
+    margin-top: 20px;
+}
+.no{
+    border: none;
+    border-bottom: solid lightgray 1px; 
 }
 
-
-
-
-
+/* FOOTNOTE */
 
 .footer-bottom{
     text-align: center;

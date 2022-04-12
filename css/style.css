@@ -38,6 +38,9 @@
 .uppercase{
     text-transform: uppercase;
 }
+.white{
+    color: white;
+}
 
 /* HEADER */
 
@@ -95,6 +98,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 10px;
+    font-size: 20px;
 }
 .hero-txt{
     padding-top: 15px;
@@ -117,7 +121,47 @@ header{
     font-size: 30px;
 }
 
+/* ABOUT SECTION */
 
+.about{
+    margin: 100px 0;
+}
+
+.about h2, .contact h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+p{
+    font-weight: bold;
+}
+.less-width{
+   padding: 10px 0 30px 30px;
+}
+.less-width2{
+    padding: 10px 30px 30px 0;
+ }
+button{
+    background: none;
+	color: inherit;
+	border: solid white 1px;
+	padding: 7px 10px;
+	font: inherit;
+    border-radius: 5px;
+	cursor: pointer;
+	outline: inherit;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+button i{
+    margin-right: 5px;
+}
+
+/* CONTACT SECTION */
+
+.contact h2{
+
+}
 
 
 
